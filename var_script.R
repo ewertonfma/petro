@@ -1,3 +1,7 @@
+library(xts)
+library(vars)
+
+load("~/petro/df.Rdata")
 
 df = data.frame(oil = as.ts(dados$Oil.close),
                 gpr = as.ts(dados$gpr.geopolitical),
